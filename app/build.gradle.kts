@@ -4,7 +4,6 @@
 import android.annotation.SuppressLint
 import com.android.build.api.dsl.ApplicationExtension
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
-import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
     `pacemaker-application`
@@ -14,7 +13,6 @@ plugins {
 }
 
 pacemaker {
-    ios()
     android()
     jvm()
 }
@@ -70,12 +68,5 @@ kotlin {
 
     sourceSets.getByName("androidInstrumentedTest").dependencies {
         implementation("androidx.compose.ui:ui-test-junit4:1.7.6")
-    }
-}
-
-kotlin.targets.withType<KotlinNativeTarget>().configureEach {
-    binaries.framework {
-        baseName = "LibPacemaker"
-        isStatic = true
     }
 }

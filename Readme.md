@@ -1,4 +1,4 @@
-# Pacemaker (iOS & Android) [KMP]
+# Pacemaker (Android) [KMP]
 [![Build](https://github.com/sellmair/pacemaker/actions/workflows/build.yaml/badge.svg)](https://github.com/sellmair/pacemaker/actions/workflows/build.yaml)
 
 Run together! A running companion monitoring the heart rate of a group of people doing sports together.
@@ -6,9 +6,7 @@ Run together! A running companion monitoring the heart rate of a group of people
 ## Supports
 
 - External Bluetooth (LE) heart rate monitors (tested with Polar H10)
-- iPhone <-> iPhone connections (No internet necessary, BLE)
 - Android <-> Android connections (No internet necessary, BLE)
-- iPhone <-> Android connections (No internet necessary, BLE)
 
 ## Planned
 
@@ -17,15 +15,12 @@ WatchOS support (via UWB chip and Internet)
 ## Screenshots
 
 <p float="left">
-    <img src="/.img/screenshot-ios-1.png" alt="Screenshot iOS" width="250">
-    <img src="/.img/screenshot-ios-2.png" alt="Screenshot iOS" width="250">
-    <img src="/.img/screenshot-android-1.png" alt="Screenshot iOS" width="250">
+    <img src="/.img/screenshot-android-1.png" alt="Screenshot Android" width="250">
 </p>
 
 ## Install
 
 - Google Play: https://play.google.com/store/apps/details?id=io.sellmair.pacemaker
-- Apple App Store: https://apps.apple.com/us/app/pacemaker-heart-rate-monitor/id6446760560
 
 # Technical Details
 

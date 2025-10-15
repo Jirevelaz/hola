@@ -4,6 +4,5 @@ plugins {
 
 pacemaker {
     jvm()
-    ios()
     macos()
 }

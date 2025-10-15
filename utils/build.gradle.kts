@@ -8,7 +8,6 @@ pacemaker {
     jvm()
     macos()
     android()
-    ios()
 
     sourceSets {
         useNonAndroid()

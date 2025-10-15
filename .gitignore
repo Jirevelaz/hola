@@ -5,14 +5,8 @@ local.properties
 .idea
 spoof-tool/spoof
 
-# Ios specific:
+# macOS
 .DS_Store
-iosApp/Podfile.lock
-iosApp/Pods/*
-iosApp/Pacemaker.xcworkspace/*
-iosApp/Pacemaker.xcodeproj/*
-!iosApp/Pacemaker.xcodeproj/project.pbxproj
-app/PM.podspec
 
 # Addition
 /captures

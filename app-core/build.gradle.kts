@@ -4,7 +4,6 @@ plugins {
 }
 
 pacemaker {
-    ios()
     android()
     jvm()
 

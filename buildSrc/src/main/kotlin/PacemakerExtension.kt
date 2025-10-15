@@ -23,12 +23,6 @@ class PacemakerExtension(
         }
     }
 
-    fun ios() {
-        kotlin.iosX64()
-        kotlin.iosArm64()
-        kotlin.iosSimulatorArm64()
-    }
-
     fun macos() {
         kotlin.macosArm64()
         kotlin.macosX64()
@@ -113,7 +107,7 @@ class PacemakerExtension(
                     implementation(Dependencies.sqldelight_sqliteDriver)
                 }
 
-                sourceSets.nativeMain.dependencies {
+                sourceSets.findByName("nativeMain")?.dependencies {
                     implementation(Dependencies.sqldelight_nativeDriver)
                 }
 
